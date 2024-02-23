@@ -1,0 +1,47 @@
+@import "../styles/global.scss";
+
+.memoji{
+  width: 25vh;
+}
+
+.members {
+  height: 100vh;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.member-name {
+  margin-top: 12px;
+  color: $color-purple;
+  font-size: $font-size-large;
+  font-weight: 900;
+}
+
+.titles {
+  text-align: left;
+  margin-bottom: 80px;
+
+  & h1 {
+    font-weight: 800;
+    font-size: $font-size-large-title;
+    margin-top: 20px;
+  }
+
+  & span {
+    color: $color-purple;
+    margin-top: -20px;
+  }
+}
+
+
+@media (max-width: 771px){
+
+  .titles {
+    margin-top: 50px
+  };
+
+}

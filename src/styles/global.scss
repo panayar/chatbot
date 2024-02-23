@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+span,
+div {
+  overflow-y: hidden;
+}
+
+.link-text {
+  text-decoration: none;
+}
+
+$color-primary: #0070f0;
+$color-secondary: #1e232c;
+$color-tertiary: #bfddff;
+$color-quaternary: #e4f1ff;
+$color-purple: #3c46fe;
+$color-purple-light: #743af0;
+$color-error: #ff6d6d;
+$color-error-light: #ffd6d6;
+$color-white: #ffffff;
+$color-gray: #8f8f8f;
+
+$font-size-small: 16px; 
+$font-size-medium: 18px; /* Slightly larger than base size (1.125 * 16) */
+$font-size-large: 20px; /* Larger than medium (1.25 * 16) */
+$font-size-large-title: 36px; /* 2.25 * 16 */
+$font-size-extra-large: 48px; /* Substantially larger for emphasis (3 * 16) */
+
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-bold: 700; /* Commonly used for bold text */
+
+$border-radius-small: 0.25rem; /* Equivalent to 4px (subtle rounding) */
+$border-radius-medium: 0.5rem; /* Equivalent to 8px (moderate rounding) */
+$border-radius-large: 1rem; /* Equivalent to 16px (significant rounding) */
+
+
